@@ -5,7 +5,9 @@ const EPISODES = [
     "title": "Tartessos",
     "period": "Antigüedad",
     "era": "Edad del Bronce-Hierro",
-    "priority": 3
+    "priority": 3,
+    "topic": "Tartessos",
+    "type": "Civilización"
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@ const EPISODES = [
     "title": "Esparta",
     "period": "Grecia",
     "era": "Grecia clásica",
-    "priority": 3
+    "priority": 3,
+    "topic": "Esparta",
+    "type": "Civilización"
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@ const EPISODES = [
     "title": "Alejandro y Afganistán",
     "period": "Grecia/Macedonia",
     "era": "Alejandro Magno",
-    "priority": 2
+    "priority": 2,
+    "topic": "Alejandro Magno",
+    "type": "Personaje"
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@ const EPISODES = [
     "title": "Amílcar Barca, el León de Cartago",
     "period": "Cartago/Roma",
     "era": "Guerras Púnicas",
-    "priority": 3
+    "priority": 3,
+    "topic": "Cartago",
+    "type": "Personaje"
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@ const EPISODES = [
     "title": "Aníbal Barca y la II Guerra Púnica",
     "period": "Cartago/Roma",
     "era": "Guerras Púnicas",
-    "priority": 3
+    "priority": 3,
+    "topic": "Aníbal Barca",
+    "type": "Personaje"
   },
   {
     "id": 6,
@@ -45,7 +55,9 @@ const EPISODES = [
     "title": "Numancia",
     "period": "Hispania/Roma",
     "era": "Hispania prerromana",
-    "priority": 2
+    "priority": 2,
+    "topic": "Numancia",
+    "type": "Batalla"
   },
   {
     "id": 7,
@@ -53,7 +65,9 @@ const EPISODES = [
     "title": "César y la Guerra de las Galias",
     "period": "Roma",
     "era": "Final República romana",
-    "priority": 3
+    "priority": 3,
+    "topic": "Julio César",
+    "type": "Personaje"
   },
   {
     "id": 8,
@@ -61,7 +75,9 @@ const EPISODES = [
     "title": "César Augusto",
     "period": "Roma",
     "era": "Inicio Imperio romano",
-    "priority": 3
+    "priority": 3,
+    "topic": "Augusto",
+    "type": "Personaje"
   },
   {
     "id": 9,
@@ -69,7 +85,9 @@ const EPISODES = [
     "title": "Teutoburgo",
     "period": "Roma",
     "era": "Imperio romano",
-    "priority": 3
+    "priority": 3,
+    "topic": "Teutoburgo",
+    "type": "Batalla"
   },
   {
     "id": 10,
@@ -77,7 +95,9 @@ const EPISODES = [
     "title": "De los Visigodos a Covadonga",
     "period": "Edad Media",
     "era": "Inicio Reconquista",
-    "priority": 3
+    "priority": 3,
+    "topic": "Reconquista",
+    "type": "Periodo"
   },
   {
     "id": 11,
@@ -85,7 +105,9 @@ const EPISODES = [
     "title": "Vikingos y mitología nórdica",
     "period": "Edad Media",
     "era": "Alta Edad Media",
-    "priority": 3
+    "priority": 3,
+    "topic": "Vikingos",
+    "type": "Civilización"
   },
   {
     "id": 12,
@@ -93,7 +115,9 @@ const EPISODES = [
     "title": "Batalla de las Navas de Tolosa",
     "period": "Edad Media",
     "era": "Reconquista",
-    "priority": 3
+    "priority": 3,
+    "topic": "Navas de Tolosa",
+    "type": "Batalla"
   },
   {
     "id": 13,
@@ -101,7 +125,9 @@ const EPISODES = [
     "title": "La conquista de México",
     "period": "Edad Moderna",
     "era": "Conquista de América",
-    "priority": 3
+    "priority": 3,
+    "topic": "Conquista de México",
+    "type": "Conquista"
   },
   {
     "id": 14,
@@ -109,7 +135,9 @@ const EPISODES = [
     "title": "Tercios de Flandes",
     "period": "Edad Moderna",
     "era": "Imperio español",
-    "priority": 3
+    "priority": 3,
+    "topic": "Tercios",
+    "type": "Militar"
   },
   {
     "id": 15,
@@ -117,7 +145,9 @@ const EPISODES = [
     "title": "Blas de Lezo y Olavarrieta",
     "period": "Edad Moderna",
     "era": "Siglo XVIII",
-    "priority": 3
+    "priority": 3,
+    "topic": "Blas de Lezo",
+    "type": "Personaje"
   },
   {
     "id": 16,
@@ -125,7 +155,9 @@ const EPISODES = [
     "title": "Independencia de Estados Unidos",
     "period": "Revoluciones",
     "era": "Revoluciones atlánticas",
-    "priority": 3
+    "priority": 3,
+    "topic": "Independencia de EE. UU.",
+    "type": "Revolución"
   },
   {
     "id": 17,
@@ -133,7 +165,9 @@ const EPISODES = [
     "title": "Batalla de Waterloo",
     "period": "Napoleón",
     "era": "Guerras napoleónicas",
-    "priority": 3
+    "priority": 3,
+    "topic": "Waterloo",
+    "type": "Batalla"
   },
   {
     "id": 18,
@@ -141,7 +175,9 @@ const EPISODES = [
     "title": "Guerra de Secesión Americana",
     "period": "Siglo XIX",
     "era": "Estados Unidos siglo XIX",
-    "priority": 3
+    "priority": 3,
+    "topic": "Guerra de Secesión",
+    "type": "Guerra"
   },
   {
     "id": 19,
@@ -149,7 +185,9 @@ const EPISODES = [
     "title": "IGM: Imperialismo, alianzas y planes de guerra",
     "period": "Primera Guerra Mundial",
     "era": "1914-1918",
-    "priority": 3
+    "priority": 3,
+    "topic": "Primera Guerra Mundial",
+    "type": "Guerra"
   },
   {
     "id": 20,
@@ -157,7 +195,9 @@ const EPISODES = [
     "title": "IGM: Guerra naval",
     "period": "Primera Guerra Mundial",
     "era": "1914-1918",
-    "priority": 3
+    "priority": 3,
+    "topic": "Primera Guerra Mundial",
+    "type": "Guerra"
   },
   {
     "id": 21,
@@ -165,7 +205,9 @@ const EPISODES = [
     "title": "IGM: Occidente y la guerra en Europa 1914-16",
     "period": "Primera Guerra Mundial",
     "era": "1914-1918",
-    "priority": 3
+    "priority": 3,
+    "topic": "Primera Guerra Mundial",
+    "type": "Guerra"
   },
   {
     "id": 22,
@@ -173,7 +215,9 @@ const EPISODES = [
     "title": "IGM: Occidente y la guerra en Europa 1917-18",
     "period": "Primera Guerra Mundial",
     "era": "1914-1918",
-    "priority": 3
+    "priority": 3,
+    "topic": "Primera Guerra Mundial",
+    "type": "Guerra"
   },
   {
     "id": 23,
@@ -181,7 +225,9 @@ const EPISODES = [
     "title": "Pearl Harbor",
     "period": "Segunda Guerra Mundial",
     "era": "Pacífico",
-    "priority": 3
+    "priority": 3,
+    "topic": "Pearl Harbor",
+    "type": "Batalla"
   },
   {
     "id": 24,
@@ -189,7 +235,9 @@ const EPISODES = [
     "title": "1940: La defensa de Francia",
     "period": "Segunda Guerra Mundial",
     "era": "Europa occidental",
-    "priority": 3
+    "priority": 3,
+    "topic": "Francia 1940",
+    "type": "Campaña"
   },
   {
     "id": 25,
@@ -197,7 +245,9 @@ const EPISODES = [
     "title": "Kursk",
     "period": "Segunda Guerra Mundial",
     "era": "Frente oriental",
-    "priority": 3
+    "priority": 3,
+    "topic": "Kursk",
+    "type": "Batalla"
   },
   {
     "id": 26,
@@ -205,7 +255,9 @@ const EPISODES = [
     "title": "El día D y la hora H",
     "period": "Segunda Guerra Mundial",
     "era": "Normandía",
-    "priority": 3
+    "priority": 3,
+    "topic": "Día D",
+    "type": "Batalla"
   },
   {
     "id": 27,
@@ -213,7 +265,9 @@ const EPISODES = [
     "title": "Batalla de Midway",
     "period": "Segunda Guerra Mundial",
     "era": "Pacífico",
-    "priority": 3
+    "priority": 3,
+    "topic": "Midway",
+    "type": "Batalla"
   },
   {
     "id": 28,
@@ -221,7 +275,9 @@ const EPISODES = [
     "title": "Telón de Acero",
     "period": "Guerra Fría",
     "era": "Posguerra",
-    "priority": 3
+    "priority": 3,
+    "topic": "Guerra Fría",
+    "type": "Periodo"
   },
   {
     "id": 29,
@@ -229,7 +285,9 @@ const EPISODES = [
     "title": "La carrera espacial",
     "period": "Guerra Fría",
     "era": "Competencia espacial",
-    "priority": 3
+    "priority": 3,
+    "topic": "Carrera espacial",
+    "type": "Tecnología"
   },
   {
     "id": 30,
@@ -237,6 +295,8 @@ const EPISODES = [
     "title": "Operación Tormenta del Desierto",
     "period": "Contemporánea",
     "era": "Guerra del Golfo",
-    "priority": 2
+    "priority": 2,
+    "topic": "Guerra del Golfo",
+    "type": "Guerra"
   }
 ];

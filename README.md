@@ -1,5 +1,12 @@
-# Histoguía
+# Histoguía V1.1
 
-Aplicación web instalable para iPhone.
+App web instalable para aprender Historia con podcasts.
 
-Publicar con GitHub Pages y abrir desde Safari.
+## V1.1
+- Inicio
+- Ruta
+- Explorar
+- Biblioteca
+- Progreso
+- Favoritos
+- Modo claro/oscuro

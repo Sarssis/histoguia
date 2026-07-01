@@ -1,13 +1,37 @@
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#10131d"><meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Histoguía">
-<title>Histoguía</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css">
-</head><body><div class="app">
-<header><div><p class="kicker">Historia Universal</p><h1>Histoguía</h1></div><button id="theme">☾</button></header>
-<section class="hero"><div><p class="kicker">Continuar</p><h2 id="nextTitle">Cargando...</h2><p id="nextMeta"></p><div class="actions"><a id="nextListen" target="_blank">Escuchar</a><button id="nextDone">Marcar escuchado</button></div></div><div class="ring"><svg viewBox="0 0 120 120"><circle class="track" cx="60" cy="60" r="52"/><circle id="meter" class="meter" cx="60" cy="60" r="52"/></svg><b id="pct">0%</b></div></section>
-<section class="stats"><div><b id="done">0</b><span>Escuchados</span></div><div><b id="total">30</b><span>Episodios</span></div><div><b id="fav">0</b><span>Favoritos</span></div></section>
-<nav><button class="tab on" data-view="all">Ruta</button><button class="tab" data-view="periods">Épocas</button><button class="tab" data-view="fav">Favoritos</button></nav>
-<section class="filters"><input id="q" placeholder="Buscar HC, título o época..."><select id="period"><option value="">Todas las épocas</option></select></section>
-<main id="list"></main></div><script src="data.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e111a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Histoguía">
+  <title>Histoguía</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div>
+        <p class="overline">Aprende Historia escuchando</p>
+        <h1>Histoguía</h1>
+      </div>
+      <button id="themeBtn" class="round">☾</button>
+    </header>
+
+    <main id="screen"></main>
+
+    <nav class="bottom">
+      <button data-tab="home" class="active">⌂<span>Inicio</span></button>
+      <button data-tab="route">⌁<span>Ruta</span></button>
+      <button data-tab="explore">◎<span>Explorar</span></button>
+      <button data-tab="library">▤<span>Biblioteca</span></button>
+      <button data-tab="progress">◌<span>Progreso</span></button>
+    </nav>
+  </div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

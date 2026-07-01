@@ -3,8 +3,8 @@
   "short_name": "Histoguía",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#10131d",
-  "theme_color": "#10131d",
+  "background_color": "#0e111a",
+  "theme_color": "#0e111a",
   "icons": [
     {
       "src": "icon.svg",
