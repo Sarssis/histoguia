@@ -290,7 +290,25 @@ const DATA = {
       "published": "",
       "priority": 3,
       "apple_url": "https://podcasts.apple.com/es/podcast/65-la-prehistoria-el-neol%C3%ADtico/id1503363327?i=1000519608384",
-      "summary": "Episodio centrado en la Revolución Neolítica, sedentarismo, agricultura, domesticación, primeras ciudades y origen de la escritura."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 1,
+      "depth": 2,
+      "summary": "Episodio centrado en la Revolución Neolítica, sedentarismo, agricultura, domesticación, primeras ciudades y origen de la escritura.",
+      "learn": [
+        "Qué cambia con la agricultura.",
+        "Por qué aparecen aldeas estables.",
+        "Cómo se relacionan sedentarismo, excedentes y desigualdad.",
+        "Por qué el Neolítico es una revolución histórica."
+      ],
+      "related_topics": [
+        "Agricultura",
+        "Domesticación",
+        "Primeras aldeas",
+        "Creciente Fértil"
+      ]
     },
     {
       "id": "ep_historia_con_movil_neolitico",
@@ -304,7 +322,23 @@ const DATA = {
       "published": "2020-09-02",
       "priority": 2,
       "apple_url": "https://podcasts.apple.com/es/podcast/el-neol%C3%ADtico-evoluci%C3%B3n-o-involuci%C3%B3n/id1219460034?i=1000574622907",
-      "summary": "Episodio breve sobre el Neolítico, útil como entrada introductoria."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 1,
+      "depth": 1,
+      "summary": "Episodio breve sobre el Neolítico, útil como entrada introductoria.",
+      "learn": [
+        "Introducción rápida al Neolítico.",
+        "Cambios sociales asociados a la agricultura.",
+        "Debate sobre progreso o retroceso."
+      ],
+      "related_topics": [
+        "Agricultura",
+        "Sedentarismo",
+        "Revolución Neolítica"
+      ]
     },
     {
       "id": "ep_la_historia_espana_prehistoria_peninsula",
@@ -318,7 +352,24 @@ const DATA = {
       "published": "2020-12-13",
       "priority": 3,
       "apple_url": "https://podcasts.apple.com/es/podcast/prehistoria-de-la-pen%C3%ADnsula-ib%C3%A9rica-episodio-3/id1544923756?i=1000502432135",
-      "summary": "Recorrido por la prehistoria de la península ibérica desde el Paleolítico hasta la Edad del Bronce."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 2,
+      "depth": 2,
+      "summary": "Recorrido por la prehistoria de la península ibérica desde el Paleolítico hasta la Edad del Bronce.",
+      "learn": [
+        "Etapas principales de la prehistoria peninsular.",
+        "Evolución de sociedades cazadoras a sociedades agrícolas.",
+        "Primeras culturas metalúrgicas en la península."
+      ],
+      "related_topics": [
+        "Paleolítico",
+        "Neolítico",
+        "Edad del Bronce",
+        "Península ibérica"
+      ]
     },
     {
       "id": "ep_planeta_muy_neandertales",
@@ -332,7 +383,24 @@ const DATA = {
       "published": "",
       "priority": 2,
       "apple_url": "https://podcasts.apple.com/es/podcast/cap%C3%ADtulo-3-caminando-entre-neandertales-con-javier-baena/id1588051336?i=1000536973313",
-      "summary": "Episodio divulgativo sobre vida, costumbres y capacidades de los neandertales."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 1,
+      "depth": 2,
+      "summary": "Episodio divulgativo sobre vida, costumbres y capacidades de los neandertales.",
+      "learn": [
+        "Quiénes fueron los neandertales.",
+        "Cómo vivían y se organizaban.",
+        "Qué sabemos de sus capacidades cognitivas.",
+        "Cómo se relacionan con Homo sapiens."
+      ],
+      "related_topics": [
+        "Neandertales",
+        "Homo sapiens",
+        "Paleolítico medio"
+      ]
     },
     {
       "id": "ep_ser_historia_origen_prehistoria",
@@ -346,7 +414,23 @@ const DATA = {
       "published": "",
       "priority": 2,
       "apple_url": "https://podcasts.apple.com/es/podcast/origen-la-prehistoria-en-la-evoluci%C3%B3n-humana/id744062884?i=1000629179532",
-      "summary": "Entrevista sobre prehistoria y evolución humana con Carlos Díez."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 1,
+      "depth": 2,
+      "summary": "Entrevista sobre prehistoria y evolución humana con Carlos Díez.",
+      "learn": [
+        "Panorama general de la evolución humana.",
+        "Importancia de la prehistoria para entender al ser humano.",
+        "Grandes cambios culturales y biológicos."
+      ],
+      "related_topics": [
+        "Evolución humana",
+        "Homo sapiens",
+        "Prehistoria"
+      ]
     },
     {
       "id": "ep_un_podcast_salud_alimentacion_evolucion",
@@ -360,7 +444,23 @@ const DATA = {
       "published": "2022-11-30",
       "priority": 1,
       "apple_url": "https://podcasts.apple.com/es/podcast/alimentaci%C3%B3n-c%C3%B3mo-nos-afecta-lo-que-comemos/id1533265652?i=1000588115974",
-      "summary": "Episodio sanitario-divulgativo con componente útil sobre alimentación y evolución humana."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 1,
+      "depth": 1,
+      "summary": "Episodio sanitario-divulgativo con componente útil sobre alimentación y evolución humana.",
+      "learn": [
+        "Relación entre alimentación y biología humana.",
+        "Cómo influyen dieta y entorno.",
+        "Perspectiva divulgativa más sanitaria que histórica."
+      ],
+      "related_topics": [
+        "Alimentación",
+        "Evolución humana",
+        "Dieta"
+      ]
     },
     {
       "id": "ep_clima_historia_neandertales_sahara",
@@ -374,7 +474,24 @@ const DATA = {
       "published": "2026",
       "priority": 1,
       "apple_url": "https://podcasts.apple.com/es/podcast/el-clima-en-la-historia-crisis-imperios-y/id1150909157?i=1000765992453",
-      "summary": "Episodio sobre clima, eventos Heinrich, neandertales, Sáhara verde y nacimiento de Egipto faraónico."
+      "spotify_url": "",
+      "ivoox_url": "",
+      "web_url": "",
+      "youtube_url": "",
+      "difficulty": 2,
+      "depth": 1,
+      "summary": "Episodio sobre clima, eventos Heinrich, neandertales, Sáhara verde y nacimiento de Egipto faraónico.",
+      "learn": [
+        "Cómo condiciona el clima a la historia.",
+        "Relación entre cambios climáticos y migraciones.",
+        "Conexión entre prehistoria y primeras civilizaciones."
+      ],
+      "related_topics": [
+        "Clima",
+        "Neandertales",
+        "Sáhara verde",
+        "Egipto"
+      ]
     }
   ]
 };

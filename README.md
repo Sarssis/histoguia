@@ -1,3 +1,3 @@
-# Histoguía Integration v1
+# Histoguía App Episode Cards v2
 
-Versión de prueba: la app integra fases, subperiodos y episodios verificados de Fase 1.
+Nueva prueba: fichas enciclopédicas por episodio, plataformas, valoración editorial, favoritos y progreso.
