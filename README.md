@@ -1,3 +1,5 @@
-# Histoguía App Episode Cards v2
+# Histoguía App Remote Database v3
 
-Nueva prueba: fichas enciclopédicas por episodio, plataformas, valoración editorial, favoritos y progreso.
+La app lee datos directamente desde `Sarssis/histoguia-database` usando JSON públicos de GitHub.
+
+Requisito: el repositorio `histoguia-database` debe ser público.
