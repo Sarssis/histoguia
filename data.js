@@ -7,7 +7,8 @@ const EPISODES = [
     "era": "Edad del Bronce-Hierro",
     "priority": 3,
     "topic": "Tartessos",
-    "type": "Civilización"
+    "type": "Civilización",
+    "appleUrl": ""
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@ const EPISODES = [
     "era": "Grecia clásica",
     "priority": 3,
     "topic": "Esparta",
-    "type": "Civilización"
+    "type": "Civilización",
+    "appleUrl": ""
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@ const EPISODES = [
     "era": "Alejandro Magno",
     "priority": 2,
     "topic": "Alejandro Magno",
-    "type": "Personaje"
+    "type": "Personaje",
+    "appleUrl": ""
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@ const EPISODES = [
     "era": "Guerras Púnicas",
     "priority": 3,
     "topic": "Cartago",
-    "type": "Personaje"
+    "type": "Personaje",
+    "appleUrl": ""
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@ const EPISODES = [
     "era": "Guerras Púnicas",
     "priority": 3,
     "topic": "Aníbal Barca",
-    "type": "Personaje"
+    "type": "Personaje",
+    "appleUrl": ""
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@ const EPISODES = [
     "era": "Hispania prerromana",
     "priority": 2,
     "topic": "Numancia",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@ const EPISODES = [
     "era": "Final República romana",
     "priority": 3,
     "topic": "Julio César",
-    "type": "Personaje"
+    "type": "Personaje",
+    "appleUrl": ""
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@ const EPISODES = [
     "era": "Inicio Imperio romano",
     "priority": 3,
     "topic": "Augusto",
-    "type": "Personaje"
+    "type": "Personaje",
+    "appleUrl": ""
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@ const EPISODES = [
     "era": "Imperio romano",
     "priority": 3,
     "topic": "Teutoburgo",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@ const EPISODES = [
     "era": "Inicio Reconquista",
     "priority": 3,
     "topic": "Reconquista",
-    "type": "Periodo"
+    "type": "Periodo",
+    "appleUrl": ""
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@ const EPISODES = [
     "era": "Alta Edad Media",
     "priority": 3,
     "topic": "Vikingos",
-    "type": "Civilización"
+    "type": "Civilización",
+    "appleUrl": ""
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@ const EPISODES = [
     "era": "Reconquista",
     "priority": 3,
     "topic": "Navas de Tolosa",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@ const EPISODES = [
     "era": "Conquista de América",
     "priority": 3,
     "topic": "Conquista de México",
-    "type": "Conquista"
+    "type": "Conquista",
+    "appleUrl": ""
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@ const EPISODES = [
     "era": "Imperio español",
     "priority": 3,
     "topic": "Tercios",
-    "type": "Militar"
+    "type": "Militar",
+    "appleUrl": ""
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@ const EPISODES = [
     "era": "Siglo XVIII",
     "priority": 3,
     "topic": "Blas de Lezo",
-    "type": "Personaje"
+    "type": "Personaje",
+    "appleUrl": ""
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@ const EPISODES = [
     "era": "Revoluciones atlánticas",
     "priority": 3,
     "topic": "Independencia de EE. UU.",
-    "type": "Revolución"
+    "type": "Revolución",
+    "appleUrl": ""
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@ const EPISODES = [
     "era": "Guerras napoleónicas",
     "priority": 3,
     "topic": "Waterloo",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@ const EPISODES = [
     "era": "Estados Unidos siglo XIX",
     "priority": 3,
     "topic": "Guerra de Secesión",
-    "type": "Guerra"
+    "type": "Guerra",
+    "appleUrl": ""
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@ const EPISODES = [
     "era": "1914-1918",
     "priority": 3,
     "topic": "Primera Guerra Mundial",
-    "type": "Guerra"
+    "type": "Guerra",
+    "appleUrl": ""
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@ const EPISODES = [
     "era": "1914-1918",
     "priority": 3,
     "topic": "Primera Guerra Mundial",
-    "type": "Guerra"
+    "type": "Guerra",
+    "appleUrl": ""
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@ const EPISODES = [
     "era": "1914-1918",
     "priority": 3,
     "topic": "Primera Guerra Mundial",
-    "type": "Guerra"
+    "type": "Guerra",
+    "appleUrl": ""
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@ const EPISODES = [
     "era": "1914-1918",
     "priority": 3,
     "topic": "Primera Guerra Mundial",
-    "type": "Guerra"
+    "type": "Guerra",
+    "appleUrl": ""
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@ const EPISODES = [
     "era": "Pacífico",
     "priority": 3,
     "topic": "Pearl Harbor",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@ const EPISODES = [
     "era": "Europa occidental",
     "priority": 3,
     "topic": "Francia 1940",
-    "type": "Campaña"
+    "type": "Campaña",
+    "appleUrl": ""
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@ const EPISODES = [
     "era": "Frente oriental",
     "priority": 3,
     "topic": "Kursk",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@ const EPISODES = [
     "era": "Normandía",
     "priority": 3,
     "topic": "Día D",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 27,
@@ -267,7 +293,8 @@ const EPISODES = [
     "era": "Pacífico",
     "priority": 3,
     "topic": "Midway",
-    "type": "Batalla"
+    "type": "Batalla",
+    "appleUrl": ""
   },
   {
     "id": 28,
@@ -277,7 +304,8 @@ const EPISODES = [
     "era": "Posguerra",
     "priority": 3,
     "topic": "Guerra Fría",
-    "type": "Periodo"
+    "type": "Periodo",
+    "appleUrl": ""
   },
   {
     "id": 29,
@@ -287,7 +315,8 @@ const EPISODES = [
     "era": "Competencia espacial",
     "priority": 3,
     "topic": "Carrera espacial",
-    "type": "Tecnología"
+    "type": "Tecnología",
+    "appleUrl": ""
   },
   {
     "id": 30,
@@ -297,6 +326,7 @@ const EPISODES = [
     "era": "Guerra del Golfo",
     "priority": 2,
     "topic": "Guerra del Golfo",
-    "type": "Guerra"
+    "type": "Guerra",
+    "appleUrl": ""
   }
 ];

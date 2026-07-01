@@ -1,12 +1,6 @@
-# Histoguía V1.1
+# Histoguía V1.2
 
-App web instalable para aprender Historia con podcasts.
+Cambio principal: Apple Podcasts queda como plataforma principal.
 
-## V1.1
-- Inicio
-- Ruta
-- Explorar
-- Biblioteca
-- Progreso
-- Favoritos
-- Modo claro/oscuro
+Cuando no exista enlace directo verificado, el botón muestra “Buscar en Apple Podcasts”.
+Cuando exista `appleUrl`, el botón pasará a mostrar “Abrir episodio”.
