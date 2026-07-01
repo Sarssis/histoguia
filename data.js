@@ -8,7 +8,7 @@ const EPISODES = [
     "priority": 3,
     "topic": "Tartessos",
     "type": "Civilización",
-    "appleUrl": ""
+    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-340-tartessos/id500148829?i=1000767088074"
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@ const EPISODES = [
     "priority": 2,
     "topic": "Alejandro Magno",
     "type": "Personaje",
-    "appleUrl": ""
+    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-38-alejandro-y-afganistan/id500148829?i=1000335690071"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@ const EPISODES = [
     "priority": 3,
     "topic": "Cartago",
     "type": "Personaje",
-    "appleUrl": ""
+    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-15-am%C3%ADlcar-barca-el-le%C3%B3n-de-cartago/id500148829?i=1000335690098"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@ const EPISODES = [
     "priority": 3,
     "topic": "Aníbal Barca",
     "type": "Personaje",
-    "appleUrl": ""
+    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-54-an%C3%ADbal-barca-y-la-ii-guerra-p%C3%BAnica/id500148829?i=1000335689797"
   },
   {
     "id": 6,

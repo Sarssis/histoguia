@@ -1,6 +1,5 @@
-# Histoguía V1.2
+# Histoguía V1.3
 
-Cambio principal: Apple Podcasts queda como plataforma principal.
+Incluye primeros enlaces directos verificados de Apple Podcasts.
 
-Cuando no exista enlace directo verificado, el botón muestra “Buscar en Apple Podcasts”.
-Cuando exista `appleUrl`, el botón pasará a mostrar “Abrir episodio”.
+Verificados: HC340, HC38, HC15, HC54.
