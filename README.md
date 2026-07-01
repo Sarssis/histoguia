@@ -1,5 +1,3 @@
-# Histoguía V1.4
+# Histoguía Integration v1
 
-Cambio de enfoque: fichas propias de episodio.
-
-Apple Podcasts queda como reproductor externo. Histoguía funciona como guía/enciclopedia.
+Versión de prueba: la app integra fases, subperiodos y episodios verificados de Fase 1.
