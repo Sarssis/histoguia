@@ -1,15 +1,32 @@
-const DB_BASE='https://raw.githubusercontent.com/Sarssis/histoguia-database/main/data/';
+const DB_BASE='https://cdn.jsdelivr.net/gh/Sarssis/histoguia-database@main/data/';
+const DB_FALLBACK='https://raw.githubusercontent.com/Sarssis/histoguia-database/main/data/';
 const KEY='histoguia-remote-v3', THEME='histoguia-theme';
 let DATA={phases:[],subperiods:[],topics:[],episodes:[]};
 let state=JSON.parse(localStorage.getItem(KEY)||'{}');
 let tab='home';
 const $=s=>document.querySelector(s), screen=$('#screen');
 
+async function fetchWithTimeout(url, ms=9000){
+  const controller = new AbortController();
+  const timeout = setTimeout(()=>controller.abort(), ms);
+  try{
+    return await fetch(url,{cache:'no-store', signal:controller.signal});
+  }finally{
+    clearTimeout(timeout);
+  }
+}
 async function loadJSON(name){
-  const url=DB_BASE+name+'.json?v=' + Date.now();
-  const res=await fetch(url,{cache:'no-store'});
-  if(!res.ok) throw new Error(name+' '+res.status);
-  return await res.json();
+  const primary=DB_BASE+name+'.json?v=' + Date.now();
+  const fallback=DB_FALLBACK+name+'.json?v=' + Date.now();
+  try{
+    const res=await fetchWithTimeout(primary);
+    if(!res.ok) throw new Error(name+' CDN '+res.status);
+    return await res.json();
+  }catch(firstError){
+    const res=await fetchWithTimeout(fallback);
+    if(!res.ok) throw new Error(name+' RAW '+res.status+' / CDN: '+firstError.message);
+    return await res.json();
+  }
 }
 async function init(){
   try{

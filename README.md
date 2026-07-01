@@ -1,5 +1,3 @@
-# Histoguía App Remote Database v3
+# Histoguía App Remote Database v3.1
 
-La app lee datos directamente desde `Sarssis/histoguia-database` usando JSON públicos de GitHub.
-
-Requisito: el repositorio `histoguia-database` debe ser público.
+Lee la base de datos desde jsDelivr con fallback a raw.githubusercontent.com.
