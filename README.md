@@ -1,5 +1,5 @@
-# Histoguía V1.3
+# Histoguía V1.4
 
-Incluye primeros enlaces directos verificados de Apple Podcasts.
+Cambio de enfoque: fichas propias de episodio.
 
-Verificados: HC340, HC38, HC15, HC54.
+Apple Podcasts queda como reproductor externo. Histoguía funciona como guía/enciclopedia.

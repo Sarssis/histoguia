@@ -8,7 +8,18 @@ const EPISODES = [
     "priority": 3,
     "topic": "Tartessos",
     "type": "Civilización",
-    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-340-tartessos/id500148829?i=1000767088074"
+    "summary": "Introducción a Tartessos, su contexto en el suroeste peninsular y su papel entre mito, arqueología y primeras culturas históricas de la península ibérica.",
+    "people": [
+      "Argantonio"
+    ],
+    "places": [
+      "Suroeste peninsular",
+      "Guadalquivir"
+    ],
+    "battles": [],
+    "related": [
+      "HC46"
+    ]
   },
   {
     "id": 2,
@@ -19,7 +30,22 @@ const EPISODES = [
     "priority": 3,
     "topic": "Esparta",
     "type": "Civilización",
-    "appleUrl": ""
+    "summary": "Recorrido por la sociedad espartana, su sistema militar, su educación, su estructura política y su papel dentro del mundo griego.",
+    "people": [
+      "Leónidas",
+      "Licurgo"
+    ],
+    "places": [
+      "Esparta",
+      "Laconia",
+      "Termópilas"
+    ],
+    "battles": [
+      "Termópilas"
+    ],
+    "related": [
+      "HC38"
+    ]
   },
   {
     "id": 3,
@@ -30,7 +56,19 @@ const EPISODES = [
     "priority": 2,
     "topic": "Alejandro Magno",
     "type": "Personaje",
-    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-38-alejandro-y-afganistan/id500148829?i=1000335690071"
+    "summary": "Episodio sobre la campaña oriental de Alejandro Magno y las dificultades de dominar territorios complejos como Bactria y zonas del actual Afganistán.",
+    "people": [
+      "Alejandro Magno"
+    ],
+    "places": [
+      "Bactria",
+      "Afganistán",
+      "Imperio persa"
+    ],
+    "battles": [],
+    "related": [
+      "HC329"
+    ]
   },
   {
     "id": 4,
@@ -41,7 +79,19 @@ const EPISODES = [
     "priority": 3,
     "topic": "Cartago",
     "type": "Personaje",
-    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-15-am%C3%ADlcar-barca-el-le%C3%B3n-de-cartago/id500148829?i=1000335690098"
+    "summary": "La figura de Amílcar Barca, la recuperación cartaginesa tras la Primera Guerra Púnica y la base de la futura expansión bárquida en Hispania.",
+    "people": [
+      "Amílcar Barca",
+      "Aníbal Barca"
+    ],
+    "places": [
+      "Cartago",
+      "Hispania"
+    ],
+    "battles": [],
+    "related": [
+      "HC54"
+    ]
   },
   {
     "id": 5,
@@ -52,7 +102,28 @@ const EPISODES = [
     "priority": 3,
     "topic": "Aníbal Barca",
     "type": "Personaje",
-    "appleUrl": "https://podcasts.apple.com/es/podcast/histocast-54-an%C3%ADbal-barca-y-la-ii-guerra-p%C3%BAnica/id500148829?i=1000335689797"
+    "summary": "Uno de los grandes episodios de historia militar antigua: Aníbal, el cruce de los Alpes, la guerra contra Roma y el duelo estratégico con Escipión.",
+    "people": [
+      "Aníbal Barca",
+      "Escipión el Africano",
+      "Amílcar Barca"
+    ],
+    "places": [
+      "Cartago",
+      "Roma",
+      "Italia",
+      "Hispania"
+    ],
+    "battles": [
+      "Trebia",
+      "Trasimeno",
+      "Cannas",
+      "Zama"
+    ],
+    "related": [
+      "HC15",
+      "HC59"
+    ]
   },
   {
     "id": 6,
@@ -63,7 +134,21 @@ const EPISODES = [
     "priority": 2,
     "topic": "Numancia",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "La resistencia de Numancia frente a Roma y su conversión posterior en símbolo histórico de resistencia en la península ibérica.",
+    "people": [
+      "Escipión Emiliano"
+    ],
+    "places": [
+      "Numancia",
+      "Hispania"
+    ],
+    "battles": [
+      "Sitio de Numancia"
+    ],
+    "related": [
+      "HC340",
+      "HC59"
+    ]
   },
   {
     "id": 7,
@@ -74,7 +159,23 @@ const EPISODES = [
     "priority": 3,
     "topic": "Julio César",
     "type": "Personaje",
-    "appleUrl": ""
+    "summary": "La campaña de Julio César en la Galia, su ascenso político-militar y el proceso que prepara la crisis final de la República romana.",
+    "people": [
+      "Julio César",
+      "Vercingétorix"
+    ],
+    "places": [
+      "Galia",
+      "Roma",
+      "Alesia"
+    ],
+    "battles": [
+      "Alesia"
+    ],
+    "related": [
+      "HC54",
+      "HC78"
+    ]
   },
   {
     "id": 8,
@@ -85,7 +186,23 @@ const EPISODES = [
     "priority": 3,
     "topic": "Augusto",
     "type": "Personaje",
-    "appleUrl": ""
+    "summary": "La transformación del mundo romano tras las guerras civiles y la construcción del Principado bajo Augusto.",
+    "people": [
+      "Augusto",
+      "Julio César",
+      "Marco Antonio"
+    ],
+    "places": [
+      "Roma",
+      "Egipto"
+    ],
+    "battles": [
+      "Accio"
+    ],
+    "related": [
+      "HC59",
+      "HC299"
+    ]
   },
   {
     "id": 9,
@@ -96,7 +213,22 @@ const EPISODES = [
     "priority": 3,
     "topic": "Teutoburgo",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "La derrota romana en el bosque de Teutoburgo y sus consecuencias para la expansión imperial más allá del Rin.",
+    "people": [
+      "Arminio",
+      "Varo",
+      "Augusto"
+    ],
+    "places": [
+      "Germania",
+      "Rin"
+    ],
+    "battles": [
+      "Teutoburgo"
+    ],
+    "related": [
+      "HC78"
+    ]
   },
   {
     "id": 10,
@@ -107,7 +239,21 @@ const EPISODES = [
     "priority": 3,
     "topic": "Reconquista",
     "type": "Periodo",
-    "appleUrl": ""
+    "summary": "Transición desde el reino visigodo a los primeros núcleos de resistencia cristiana tras la conquista islámica de la península.",
+    "people": [
+      "Don Pelayo"
+    ],
+    "places": [
+      "Toledo",
+      "Covadonga",
+      "Asturias"
+    ],
+    "battles": [
+      "Covadonga"
+    ],
+    "related": [
+      "HC24"
+    ]
   },
   {
     "id": 11,
@@ -118,7 +264,18 @@ const EPISODES = [
     "priority": 3,
     "topic": "Vikingos",
     "type": "Civilización",
-    "appleUrl": ""
+    "summary": "Visión general del mundo vikingo, sus incursiones, cultura marítima, religión y mitología nórdica.",
+    "people": [
+      "Odín",
+      "Thor"
+    ],
+    "places": [
+      "Escandinavia",
+      "Inglaterra",
+      "Atlántico norte"
+    ],
+    "battles": [],
+    "related": []
   },
   {
     "id": 12,
@@ -129,7 +286,22 @@ const EPISODES = [
     "priority": 3,
     "topic": "Navas de Tolosa",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "La batalla de 1212 y su impacto en el equilibrio militar y político de la península durante la Reconquista.",
+    "people": [
+      "Alfonso VIII",
+      "Muhammad an-Nasir"
+    ],
+    "places": [
+      "Las Navas de Tolosa",
+      "Castilla",
+      "Al-Ándalus"
+    ],
+    "battles": [
+      "Navas de Tolosa"
+    ],
+    "related": [
+      "HC12"
+    ]
   },
   {
     "id": 13,
@@ -140,7 +312,19 @@ const EPISODES = [
     "priority": 3,
     "topic": "Conquista de México",
     "type": "Conquista",
-    "appleUrl": ""
+    "summary": "La conquista de México, el choque entre el mundo mexica y los españoles, y la compleja red de alianzas indígenas que hizo posible la caída de Tenochtitlan.",
+    "people": [
+      "Hernán Cortés",
+      "Moctezuma II"
+    ],
+    "places": [
+      "Tenochtitlan",
+      "México"
+    ],
+    "battles": [
+      "Tenochtitlan"
+    ],
+    "related": []
   },
   {
     "id": 14,
@@ -151,7 +335,18 @@ const EPISODES = [
     "priority": 3,
     "topic": "Tercios",
     "type": "Militar",
-    "appleUrl": ""
+    "summary": "Los tercios españoles, su organización, táctica y papel en la hegemonía militar hispánica en Europa.",
+    "people": [
+      "Alejandro Farnesio"
+    ],
+    "places": [
+      "Flandes",
+      "Países Bajos"
+    ],
+    "battles": [],
+    "related": [
+      "HC57"
+    ]
   },
   {
     "id": 15,
@@ -162,7 +357,20 @@ const EPISODES = [
     "priority": 3,
     "topic": "Blas de Lezo",
     "type": "Personaje",
-    "appleUrl": ""
+    "summary": "Biografía militar de Blas de Lezo y defensa de Cartagena de Indias frente al ataque británico.",
+    "people": [
+      "Blas de Lezo",
+      "Edward Vernon"
+    ],
+    "places": [
+      "Cartagena de Indias"
+    ],
+    "battles": [
+      "Cartagena de Indias"
+    ],
+    "related": [
+      "HC20"
+    ]
   },
   {
     "id": 16,
@@ -173,7 +381,18 @@ const EPISODES = [
     "priority": 3,
     "topic": "Independencia de EE. UU.",
     "type": "Revolución",
-    "appleUrl": ""
+    "summary": "La independencia estadounidense dentro del contexto atlántico, las Trece Colonias y el conflicto con Gran Bretaña.",
+    "people": [
+      "George Washington"
+    ],
+    "places": [
+      "Estados Unidos",
+      "Gran Bretaña"
+    ],
+    "battles": [
+      "Yorktown"
+    ],
+    "related": []
   },
   {
     "id": 17,
@@ -184,7 +403,20 @@ const EPISODES = [
     "priority": 3,
     "topic": "Waterloo",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "El desenlace militar y político de Napoleón en Waterloo y el cierre de una era para Europa.",
+    "people": [
+      "Napoleón Bonaparte",
+      "Wellington",
+      "Blücher"
+    ],
+    "places": [
+      "Waterloo",
+      "Bélgica"
+    ],
+    "battles": [
+      "Waterloo"
+    ],
+    "related": []
   },
   {
     "id": 18,
@@ -195,7 +427,19 @@ const EPISODES = [
     "priority": 3,
     "topic": "Guerra de Secesión",
     "type": "Guerra",
-    "appleUrl": ""
+    "summary": "La Guerra Civil estadounidense, sus causas políticas, económicas y sociales, y su impacto en la construcción moderna de Estados Unidos.",
+    "people": [
+      "Abraham Lincoln",
+      "Robert E. Lee",
+      "Ulysses S. Grant"
+    ],
+    "places": [
+      "Estados Unidos"
+    ],
+    "battles": [
+      "Gettysburg"
+    ],
+    "related": []
   },
   {
     "id": 19,
@@ -206,7 +450,20 @@ const EPISODES = [
     "priority": 3,
     "topic": "Primera Guerra Mundial",
     "type": "Guerra",
-    "appleUrl": ""
+    "summary": "Antecedentes de la Primera Guerra Mundial: imperialismo, bloques de alianzas, planes militares y tensiones previas a 1914.",
+    "people": [
+      "Guillermo II",
+      "Francisco Fernando"
+    ],
+    "places": [
+      "Europa"
+    ],
+    "battles": [],
+    "related": [
+      "HC64",
+      "HC304",
+      "HC306"
+    ]
   },
   {
     "id": 20,
@@ -217,7 +474,20 @@ const EPISODES = [
     "priority": 3,
     "topic": "Primera Guerra Mundial",
     "type": "Guerra",
-    "appleUrl": ""
+    "summary": "La dimensión naval de la Primera Guerra Mundial: flotas, bloqueo, submarinos y la lucha por el control marítimo.",
+    "people": [],
+    "places": [
+      "Atlántico",
+      "Mar del Norte"
+    ],
+    "battles": [
+      "Jutlandia"
+    ],
+    "related": [
+      "HC60",
+      "HC304",
+      "HC306"
+    ]
   },
   {
     "id": 21,
@@ -228,7 +498,22 @@ const EPISODES = [
     "priority": 3,
     "topic": "Primera Guerra Mundial",
     "type": "Guerra",
-    "appleUrl": ""
+    "summary": "La guerra en el frente occidental durante la primera mitad del conflicto, con el paso de la guerra de movimiento a la guerra de trincheras.",
+    "people": [],
+    "places": [
+      "Francia",
+      "Bélgica"
+    ],
+    "battles": [
+      "Marne",
+      "Verdún",
+      "Somme"
+    ],
+    "related": [
+      "HC60",
+      "HC64",
+      "HC306"
+    ]
   },
   {
     "id": 22,
@@ -239,7 +524,21 @@ const EPISODES = [
     "priority": 3,
     "topic": "Primera Guerra Mundial",
     "type": "Guerra",
-    "appleUrl": ""
+    "summary": "La fase final de la guerra en Europa occidental: desgaste, entrada estadounidense, ofensivas alemanas y colapso final.",
+    "people": [],
+    "places": [
+      "Francia",
+      "Bélgica"
+    ],
+    "battles": [
+      "Ofensiva de primavera",
+      "Amiens"
+    ],
+    "related": [
+      "HC60",
+      "HC64",
+      "HC304"
+    ]
   },
   {
     "id": 23,
@@ -250,7 +549,22 @@ const EPISODES = [
     "priority": 3,
     "topic": "Pearl Harbor",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "El ataque japonés a Pearl Harbor y la entrada de Estados Unidos en la Segunda Guerra Mundial.",
+    "people": [
+      "Franklin D. Roosevelt",
+      "Yamamoto"
+    ],
+    "places": [
+      "Pearl Harbor",
+      "Hawái",
+      "Japón"
+    ],
+    "battles": [
+      "Pearl Harbor"
+    ],
+    "related": [
+      "HC194"
+    ]
   },
   {
     "id": 24,
@@ -261,7 +575,23 @@ const EPISODES = [
     "priority": 3,
     "topic": "Francia 1940",
     "type": "Campaña",
-    "appleUrl": ""
+    "summary": "La campaña alemana de 1940 en el oeste europeo y la rápida caída de Francia.",
+    "people": [
+      "Hitler",
+      "Guderian",
+      "De Gaulle"
+    ],
+    "places": [
+      "Francia",
+      "Bélgica"
+    ],
+    "battles": [
+      "Sedán",
+      "Dunkerque"
+    ],
+    "related": [
+      "HC18"
+    ]
   },
   {
     "id": 25,
@@ -272,7 +602,19 @@ const EPISODES = [
     "priority": 3,
     "topic": "Kursk",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "La batalla de Kursk, uno de los grandes choques blindados del frente oriental y punto clave en la pérdida de iniciativa alemana.",
+    "people": [
+      "Zhukov",
+      "Manstein"
+    ],
+    "places": [
+      "Kursk",
+      "URSS"
+    ],
+    "battles": [
+      "Kursk"
+    ],
+    "related": []
   },
   {
     "id": 26,
@@ -283,7 +625,22 @@ const EPISODES = [
     "priority": 3,
     "topic": "Día D",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "El desembarco aliado en Normandía y la apertura del frente occidental contra la Alemania nazi.",
+    "people": [
+      "Eisenhower",
+      "Rommel"
+    ],
+    "places": [
+      "Normandía",
+      "Francia"
+    ],
+    "battles": [
+      "Día D",
+      "Normandía"
+    ],
+    "related": [
+      "HC52"
+    ]
   },
   {
     "id": 27,
@@ -294,7 +651,21 @@ const EPISODES = [
     "priority": 3,
     "topic": "Midway",
     "type": "Batalla",
-    "appleUrl": ""
+    "summary": "Midway como punto de inflexión en la guerra del Pacífico entre Estados Unidos y Japón.",
+    "people": [
+      "Nimitz",
+      "Yamamoto"
+    ],
+    "places": [
+      "Midway",
+      "Pacífico"
+    ],
+    "battles": [
+      "Midway"
+    ],
+    "related": [
+      "HC40"
+    ]
   },
   {
     "id": 28,
@@ -305,7 +676,21 @@ const EPISODES = [
     "priority": 3,
     "topic": "Guerra Fría",
     "type": "Periodo",
-    "appleUrl": ""
+    "summary": "Nacimiento de la Guerra Fría y división política e ideológica de Europa tras la Segunda Guerra Mundial.",
+    "people": [
+      "Churchill",
+      "Stalin",
+      "Truman"
+    ],
+    "places": [
+      "Europa",
+      "URSS",
+      "Estados Unidos"
+    ],
+    "battles": [],
+    "related": [
+      "HC26"
+    ]
   },
   {
     "id": 29,
@@ -316,7 +701,20 @@ const EPISODES = [
     "priority": 3,
     "topic": "Carrera espacial",
     "type": "Tecnología",
-    "appleUrl": ""
+    "summary": "Competencia tecnológica y propagandística entre Estados Unidos y la URSS por el dominio del espacio.",
+    "people": [
+      "Yuri Gagarin",
+      "Neil Armstrong"
+    ],
+    "places": [
+      "Estados Unidos",
+      "URSS",
+      "Luna"
+    ],
+    "battles": [],
+    "related": [
+      "HC50"
+    ]
   },
   {
     "id": 30,
@@ -327,6 +725,18 @@ const EPISODES = [
     "priority": 2,
     "topic": "Guerra del Golfo",
     "type": "Guerra",
-    "appleUrl": ""
+    "summary": "La guerra del Golfo de 1991, la coalición internacional y la operación militar contra Irak tras la invasión de Kuwait.",
+    "people": [
+      "Saddam Hussein",
+      "George H. W. Bush"
+    ],
+    "places": [
+      "Irak",
+      "Kuwait"
+    ],
+    "battles": [
+      "Tormenta del Desierto"
+    ],
+    "related": []
   }
 ];
