@@ -1,5 +1,5 @@
-const DB_BASE='https://cdn.jsdelivr.net/gh/Sarssis/histoguia-database@main/data/';
-const DB_FALLBACK='https://raw.githubusercontent.com/Sarssis/histoguia-database/main/data/';
+const DB_BASE='https://raw.githubusercontent.com/Sarssis/histoguia-database/main/data/';
+const DB_FALLBACK='https://cdn.jsdelivr.net/gh/Sarssis/histoguia-database@main/data/';
 const KEY='histoguia-remote-v3', THEME='histoguia-theme';
 let DATA={phases:[],subperiods:[],topics:[],episodes:[]};
 let state=JSON.parse(localStorage.getItem(KEY)||'{}');
