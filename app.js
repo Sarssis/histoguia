@@ -45,7 +45,15 @@ const subName=id=>DATA.subperiods.find(s=>s.id===id)?.name||id;
 const phaseEpisodes=id=>DATA.episodes.filter(e=>e.phase_id===id);
 const subEpisodes=id=>DATA.episodes.filter(e=>e.subperiod_id===id);
 function links(e){return e.links||{apple:e.apple_url||'',spotify:e.spotify_url||'',ivoox:e.ivoox_url||'',youtube:e.youtube_url||'',web:e.web_url||''}}
-function verified(e,p){return (e.verification&&e.verification[p]==='verified') || (!!links(e)[p] && !e.verification)}
+function verified(e,p){
+  const url = links(e)[p];
+  if(!url) return false;
+  if(!e.verification) return true;
+  const v = e.verification[p];
+  if(v === 'verified') return true;
+  if(v && typeof v === 'object' && v.status === 'verified') return true;
+  return false;
+}
 function save(){localStorage.setItem(KEY,JSON.stringify(state))}
 function status(id){return state[id]?.status||'pending'}
 function fav(id){return !!state[id]?.fav}

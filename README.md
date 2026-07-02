@@ -1,3 +1,5 @@
-# Histoguía App Remote Database v3.1
+# Histoguía App Remote Database v3.2
 
-Lee la base de datos desde jsDelivr con fallback a raw.githubusercontent.com.
+Corrección técnica:
+- Los botones de plataformas se activan tanto si `verification.apple` es `"verified"` como si es `{ "status": "verified" }`.
+- No cambia diseño ni estructura.
